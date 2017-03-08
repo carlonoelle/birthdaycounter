@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Digital7";
+    src: url(digital7.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "DigitalDream";
+    src: url(digitalDream.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "DsDigi";
+    src: url(ds.TTF) format("truetype");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url(party3.jpg);
+    background-size: cover;
+}
+
+a {
+    color: #00B7FF;
+}
+
+#wrapper {
+    text-align: center;
+}
+
+#wrapper h1 {
+    font-size: 100px;
+    margin: 10px;
+    background: rgba(238, 238, 238, 0.14);
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+#countdown {
+    font-size: 359px;
+    font-family: "DsDigi", impact;
+    background: rgba(218, 218, 218, 0.36);
+    width: 42%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 1px solid #d2d2d2;
+    overflow: auto;
+}
+
+#countdown span {
+    float: left;
+}
+
+#countdown div {
+    /* width: 200px!important; */
+}
+
+#minutes {
+    float: left;
+}
+
+#seconds {
+    float: right;
+}
+
+#happyBirthday {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#message {
+    position: relative;
+    width: 990px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(party.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+}
+
+#message div {
+    text-align: center;
+    font-size: 79px;
+    height: auto;
+}
