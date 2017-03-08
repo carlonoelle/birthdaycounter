@@ -44,7 +44,9 @@ a {
     font-size: 359px;
     font-family: "DsDigi", impact;
     background: rgba(218, 218, 218, 0.36);
-    width: 42%;
+    //width: 42%;
+    display:inline-block;
+    min-width: 790px;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -100,7 +102,7 @@ a {
     font-size: 79px;
     height: auto;
     background: rgba(238, 238, 238, 0.21);
-    width: 677px;
+    //width: 677px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 14px;
