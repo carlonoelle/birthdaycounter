@@ -1,6 +1,6 @@
 $(window).ready(function() {
     var field$ = $("#countdown"),
-    	birthdayDate = new Date(2017, 02, 08, 22, 17, 55),
+    	birthdayDate = new Date(2017, 02, 12),
     	interval;
 
     function resizeToScreen(name){
