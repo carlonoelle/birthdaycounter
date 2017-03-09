@@ -32,7 +32,7 @@ a {
 #wrapper h1 {
     font-size: 100px;
     margin: 10px;
-    background: rgba(238, 238, 238, 0.14);
+    background: rgba(238, 238, 238, 0.4);
     //width: 42%;
     display:inline-block;
     margin-left: auto;
