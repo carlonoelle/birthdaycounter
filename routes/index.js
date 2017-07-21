@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Celinas und Sinas Geburtstags-Countdown' });
+  res.render('index', { title: 'Birthday Countdown' });
 });
 
 module.exports = router;
